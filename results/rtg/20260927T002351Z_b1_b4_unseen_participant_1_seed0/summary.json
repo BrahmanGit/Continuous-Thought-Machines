@@ -1,0 +1,12 @@
+{
+  "run_id": "20260927T002351Z_b1_b4_unseen_participant_1_seed0",
+  "best_epoch": 33,
+  "best_val_accuracy": 0.96875,
+  "best_val_loss": 0.15471851179609075,
+  "train_accuracy_most_certain": 0.9947916666666666,
+  "train_accuracy_final_tick": 0.9947916666666666,
+  "val_accuracy_most_certain": 0.96875,
+  "val_accuracy_final_tick": 0.96875,
+  "val_mean_most_certain_tick": 24.9453125,
+  "runtime_seconds": 38.18421779200435
+}

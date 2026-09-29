@@ -1,0 +1,2 @@
+participant,block,trial_number,rep_number,attempt_number,class_label,file,path,lead_time_ms,n_raw_available,reason
+4,2,3,0,0,4,B2_trial3_rep0_attempt0.csv,/Users/arthu/Desktop/CTM_Res-Pro/data/reach_to_grasp_dataset/data/participant_4/motion/B2_trial3_rep0_attempt0.csv,100.0,0,fewer_than_2_samples_available

@@ -1,0 +1,12 @@
+{
+  "run_id": "20260926T231456Z_b1_b4_tick_budget_10_seed0",
+  "best_epoch": 24,
+  "best_val_accuracy": 0.9625,
+  "best_val_loss": 0.10727757252752781,
+  "train_accuracy_most_certain": 0.99375,
+  "train_accuracy_final_tick": 0.99375,
+  "val_accuracy_most_certain": 0.9625,
+  "val_accuracy_final_tick": 0.9625,
+  "val_mean_most_certain_tick": 9.95625,
+  "runtime_seconds": 15.605535625014454
+}

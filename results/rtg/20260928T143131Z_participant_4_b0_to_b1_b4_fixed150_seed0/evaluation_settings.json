@@ -1,0 +1,12 @@
+{
+  "participant": 4,
+  "n_train": 64,
+  "n_test": 128,
+  "batch_size": 32,
+  "epochs": 75,
+  "updates_per_epoch": 2,
+  "actual_updates": 150,
+  "seed": 0,
+  "selection_rule": "fixed optimizer-update budget defined before B1-B4 evaluation",
+  "training_representation": "harmonized onset-to-lift trajectory resampled to 100 positions"
+}

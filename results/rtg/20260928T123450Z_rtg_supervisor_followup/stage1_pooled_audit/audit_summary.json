@@ -1,0 +1,16 @@
+{
+  "source_run": "results/rtg/20260927T130855Z_final_all_b0_to_b1_b4_seed0",
+  "checkpoint": "results/rtg/20260927T130855Z_final_all_b0_to_b1_b4_seed0/checkpoint.pt",
+  "config_source": "reconstructed from current RTGExperimentConfig + final protocol",
+  "n_train_b0": 318,
+  "n_test_b1_b4": 640,
+  "batch_size": 32,
+  "epochs": 15,
+  "updates_per_epoch": 10,
+  "optimizer_updates": 150,
+  "parameter_count": 328970,
+  "accuracy_most_certain": 0.853125,
+  "accuracy_final_tick": 0.85625,
+  "recording_identity_order_verified": true,
+  "saved_scaler_verified": true
+}

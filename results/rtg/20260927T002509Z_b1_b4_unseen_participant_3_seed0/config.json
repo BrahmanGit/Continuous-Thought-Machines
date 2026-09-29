@@ -1,0 +1,43 @@
+{
+  "experiment_name": "b1_b4_unseen_participant_3",
+  "data_root": "/Users/arthu/Desktop/CTM_Res-Pro/data/reach_to_grasp_dataset/data",
+  "blocks": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "train_reps": [
+    0,
+    1
+  ],
+  "val_reps": [
+    2
+  ],
+  "test_reps": [
+    3
+  ],
+  "n_classes": 8,
+  "n_channels": 15,
+  "full_timesteps": 100,
+  "batch_size": 32,
+  "iterations": 25,
+  "d_model": 256,
+  "d_input": 64,
+  "heads": 4,
+  "n_synch_out": 32,
+  "n_synch_action": 32,
+  "synapse_depth": 1,
+  "memory_length": 15,
+  "deep_nlms": true,
+  "memory_hidden_dims": 16,
+  "do_layernorm_nlm": false,
+  "dropout": 0.0,
+  "neuron_select_type": "random-pairing",
+  "n_random_pairing_self": 0,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0,
+  "scale_epsilon": 1e-08,
+  "run_seed": 0,
+  "device": "auto"
+}

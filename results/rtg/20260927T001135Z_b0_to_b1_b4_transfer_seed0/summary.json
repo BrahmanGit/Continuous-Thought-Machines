@@ -1,0 +1,12 @@
+{
+  "run_id": "20260927T001135Z_b0_to_b1_b4_transfer_seed0",
+  "best_epoch": 19,
+  "best_val_accuracy": 0.9875,
+  "best_val_loss": 0.1833956502377987,
+  "train_accuracy_most_certain": 0.9915966386554622,
+  "train_accuracy_final_tick": 0.9915966386554622,
+  "val_accuracy_most_certain": 0.9875,
+  "val_accuracy_final_tick": 0.9875,
+  "val_mean_most_certain_tick": 24.9,
+  "runtime_seconds": 28.167951999988873
+}
