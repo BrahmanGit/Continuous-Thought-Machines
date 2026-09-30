@@ -1,0 +1,94 @@
+{
+  "pilot_participant": 1,
+  "source_run": "/Users/arthu/Desktop/CTM_Res-Pro/models/ctm/results/rtg/20260928T141738Z_participant_1_b0_to_b1_b4_fixed150_seed0",
+  "artifacts": {
+    "checkpoint_sha256": "36e1397f72aad69322cc1548d20212518d7d9b41a4e4ff8242d0416904cb2f59",
+    "config_sha256": "ba510293383d9fd7a9f83eb9804a7b7fdd72856c91e2407393de0c2392a4b586",
+    "scaler_sha256": "8a8f0a9980ad0a687a16832506ab93712494a58ce1ce116564f0fee87c0f45bd",
+    "evaluation_settings_sha256": "3c00cabfbdeed1b4c65b2b566c7128ab0b0249428d212403488e802fbb234015"
+  },
+  "source_code": {
+    "ctm_path": "/Users/arthu/Desktop/CTM_Res-Pro/models/ctm_official/models/ctm.py",
+    "ctm_sha256": "0f650628d7c5fd647ca4978d61371afa77a0d8092097a46c57e62f07497ad81b",
+    "rtg_runner_path": "/Users/arthu/Desktop/CTM_Res-Pro/models/ctm/rtg_experiment_runner.py",
+    "rtg_runner_sha256": "84d46220642b477ff633c6cf355a67668321e82d74d2349b1251306571cc1d59",
+    "experiment_runner_path": "/Users/arthu/Desktop/CTM_Res-Pro/models/ctm/experiment_runner.py",
+    "experiment_runner_sha256": "4bcdc04b9fe0792929ed2921f5af322bc88db118ab68893370f1062dd467b8b3"
+  },
+  "architecture": {
+    "iterations": 25,
+    "d_model": 256,
+    "d_input": 64,
+    "memory_length": 15,
+    "n_synch_out": 32,
+    "n_synch_action": 32,
+    "backbone_type": "none",
+    "positional_embedding_type": "none",
+    "neuron_select_type": "random-pairing"
+  },
+  "activity_definition": {
+    "primary_variable": "post-activation state after neuron-level models",
+    "stored_axis_order": "recording, internal_tick, state_unit",
+    "shape_b0": [
+      64,
+      25,
+      256
+    ],
+    "shape_b1_b4": [
+      128,
+      25,
+      256
+    ],
+    "initial_learned_state_included": false,
+    "per_trial_rescaling": false,
+    "variability_decomposition": "within-recording temporal variance separated from between-recording variance"
+  },
+  "synchronization_timing": {
+    "action": "computed from the activated state entering each internal tick",
+    "output": "computed from the newly updated post-activation state within that tick"
+  },
+  "preprocessing_reconstruction": {
+    "scaler_mean_max_difference": 0.0,
+    "scaler_std_max_difference": 0.0,
+    "recording_identity_match": true,
+    "passed": true
+  },
+  "instrumentation_verification": {
+    "max_logit_difference": 0.0,
+    "max_certainty_difference": 0.0,
+    "selected_ticks_identical": true,
+    "predictions_identical": true,
+    "passed": true
+  },
+  "checkpoint_reproduction": {
+    "n_train": 64,
+    "n_test": 128,
+    "test_accuracy_most_certain": 0.734375,
+    "test_accuracy_final_tick": 0.734375,
+    "target_mismatches": 0,
+    "most_certain_prediction_mismatches": 0,
+    "final_prediction_mismatches": 0,
+    "selected_tick_mismatches": 0,
+    "max_logit_difference": 0.0,
+    "max_certainty_difference": 0.0,
+    "passed": true
+  },
+  "variability_audit": {
+    "summary_file": "variability_summary.csv",
+    "unit_file": "unit_variability.csv",
+    "method": "total variance decomposed into mean within-recording temporal variance and between-recording variance of recording means"
+  },
+  "deterministic_example": {
+    "selection_rule": "first B1-B4 recording after lexicographic metadata sorting",
+    "index": 0
+  },
+  "software": {
+    "python": "3.11.14 (main, Oct 21 2025, 18:27:30) [Clang 20.1.8 ]",
+    "platform": "macOS-26.7-arm64-arm-64bit",
+    "torch": "2.10.0",
+    "numpy": "2.4.2",
+    "pandas": "3.0.1",
+    "device": "mps"
+  },
+  "all_foundation_checks_passed": true
+}

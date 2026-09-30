@@ -1,0 +1,20 @@
+{
+  "participant": 1,
+  "discovery_domain": "B0",
+  "primary_representation": "within-recording temporally centered post-activation",
+  "correlation": "Pearson",
+  "distance": "1 - r",
+  "linkage": "complete",
+  "primary_r_threshold": 0.7,
+  "sensitivity_thresholds": [
+    0.6,
+    0.8
+  ],
+  "candidate_min_units": 3,
+  "absolute_correlation_used": false,
+  "bootstrap_resamples": 100,
+  "bootstrap_seed": 20260929,
+  "bootstrap_unit": "whole recording",
+  "bootstrap_stratified_by": "class_label",
+  "group_membership_filtered_by_bootstrap": false
+}

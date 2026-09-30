@@ -1,0 +1,31 @@
+{
+  "pilot_group_id": 131,
+  "state_units": [
+    11,
+    65,
+    143
+  ],
+  "object_positive": 3,
+  "object_negative": 4,
+  "selection_rule": "maximum Euclidean distance between whole-trajectory B0 object centroids",
+  "centroid_positive": [
+    -0.6963140554592081,
+    -0.4061721186872493,
+    -0.424454168785865
+  ],
+  "centroid_negative": [
+    2.254063584231308,
+    2.1850020156916825,
+    2.253181348404203
+  ],
+  "midpoint": [
+    0.7788747643860501,
+    0.8894149485022166,
+    0.914363589809169
+  ],
+  "unit_direction": [
+    -0.6207725886153247,
+    -0.5451945721498254,
+    -0.5633864319649505
+  ]
+}

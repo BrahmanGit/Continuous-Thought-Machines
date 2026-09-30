@@ -1,0 +1,11 @@
+metric,value
+candidate_groups_r07,7.0
+units_in_candidate_groups,22.0
+candidate_groups_r06,19.0
+candidate_groups_r08,1.0
+all_unit_pc1_variance,0.18339021212965095
+all_unit_pc2_variance,0.13927068918859595
+all_unit_pc1_pc2_variance,0.3226609013182469
+all_unit_pc1_pc2_pc3_variance,0.42247334390412916
+group131_pc1_variance,0.9707604356954788
+group131_pc1_pc2_variance,0.9963567292164603
